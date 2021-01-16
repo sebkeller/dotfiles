@@ -1,5 +1,5 @@
 tap 'homebrew/cask'
-tap 'homebrew/cask-font'
+tap 'homebrew/cask-fonts'
 
 brew 'git'
 brew 'gnupg'
@@ -9,7 +9,6 @@ brew 'pinentry-mac'
 brew 'rbenv'
 brew 'rbenv-default-gems'
 brew 'yarn'
-brew 'zsh'
 brew 'zsh-autosuggestions'
 brew 'zsh-syntax-highlighting'
 
