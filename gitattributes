@@ -1,0 +1,6 @@
+*.css     diff=css
+*.html    diff=html
+*.go      diff=golang
+*.rake    diff=ruby
+*.rb      diff=ruby
+*_spec.rb diff=rspec
