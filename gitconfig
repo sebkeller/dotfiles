@@ -1,3 +1,5 @@
+[alias]
+  uncommit = "reset --soft HEAD^"
 [init]
   defaultBranch = main
 [color]
@@ -33,7 +35,7 @@
 [user]
   name = Sébastien Keller
   email = sebastien@kllr.fr
-  signingkey = F6AF3565AFD6002D
+  signingkey = 2D42E2ACABD4FC805F6015EB34C18ABBC7A36146
 [filter "lfs"]
   required = true
   clean = git-lfs clean -- %f
