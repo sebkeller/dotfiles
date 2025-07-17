@@ -1,3 +1,3 @@
 # dotfiles
 
-These are my dotfiles tha I use on my Macbook pro.
+My dotfiles dotfiles for rails development on VS Code.

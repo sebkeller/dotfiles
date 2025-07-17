@@ -1,28 +1,17 @@
-[alias]
-  uncommit = "reset --soft HEAD^"
 [init]
   defaultBranch = main
 [color]
   ui = auto
 [core]
   attributesfile = ~/.gitattributes
-  editor = micro
   excludesfile = ~/.gitignore
-  autocrlf = input
-  hooksPath= = .github/hooks
-[branch]
-  autosetuprebase = always
 [commit]
   gpgsign = true
 [diff]
   colorMoved = zebra
   colorMovedWS = allow-indentation-change
-[diff "rspec"]
-  xfuncname = "^[ \t]*((RSpec|describe|context|it|before|after|around|feature|scenario|background)[ \t].*)$"
 [fetch]
   prune = true
-[merge]
-  ff = only
 [pull]
   rebase = true
 [push]
